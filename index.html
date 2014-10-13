@@ -1,8 +1,21 @@
 <html>
 <head>
 	<title>My profilz</title>
+	<script src="js/jquery-1.11.1.js" type="text/javascript"></script>
+	<script src="js/sprint.js" type="text/javascript" ></script>
+
 </head>
 <body>
 <b>Welcome to my portfolio! :DDD</b>
+<div id="mySpriteSpin"></div>
+<script type='text/javascript'>
+$("#mySpriteSpin").spritespin({
+    source  : "img/spritesheet.png", // path to sprite sheet
+    width   : 85,  // width in pixels of the window/frame
+    height  : 120,  // height in pixels of the window/frame
+    frames  : 14,   // total number of frames
+    framesX : 5     // number of frames in one row inside the spritesheet
+  });
+</script>
 </body>
 </html>
